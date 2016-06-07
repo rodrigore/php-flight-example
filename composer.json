@@ -1,0 +1,11 @@
+{
+    "require": {
+        "mikecao/flight": "^1.2",
+        "twig/twig": "^1.24"
+    },
+    "autoload": {
+        "files": [
+            "helpers.php"
+        ]
+    }
+}
