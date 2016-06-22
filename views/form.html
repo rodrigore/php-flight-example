@@ -2,15 +2,15 @@
 
 {% block content %}
 
-    <form action='/calcula' method='POST' class='form'>
-        <input class='form-control' name='username' type='text' placeholder='Ingrese nombre de usuario'/>
-        <button type='submit' class='btn btn-primary form-control'> Calcular</button>
+    <form action='/' method='POST' class='form'>
+        <input class='form-control' name='username' type='text' placeholder='Enter username'/>
+        <button type='submit' class='btn btn-primary form-control'> Send</button>
     </form>
 
 	{% if error %}
         <hr>
         <div class='alert alert-danger'>
-            Ingresa nombre de usuario
+            Enter username
         </div>
     {% endif %}
 {% endblock %}
