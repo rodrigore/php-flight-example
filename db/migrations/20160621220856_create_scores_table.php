@@ -9,6 +9,8 @@ class CreateScoresTable extends AbstractMigration
 		$table = $this->table('scores');
 		$table->addColumn('username', 'string')
 			->addColumn('score', 'integer')
+            ->addColumn('created_at', 'timestamp')
+            ->addColumn('updated_at', 'timestamp')
 			->create();
 	}
 
